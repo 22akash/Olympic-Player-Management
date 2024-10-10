@@ -1,0 +1,42 @@
+/* CreatePlayer.css */
+
+.form-container {
+    max-width: 600px; /* Limit width */
+    width: 100%; /* Responsive width */
+    padding: 20px;
+    margin: 0 auto; /* Center form horizontally */
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    backdrop-filter: blur(10px); /* Add blur effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari support */
+  }
+  
+  .background {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background: url('../images/backII.avif') no-repeat center center;
+    background-size: cover;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white; /* To make it visible over the background */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  input {
+    background-color: rgba(255, 255, 255, 0.7); /* Slight transparency on input fields */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light borders */
+    border-radius: 5px;
+    padding: 10px;
+  }
+  

@@ -1,0 +1,33 @@
+/* src/components/Home.css */
+
+.home-page {
+    background-image: url('C:/Users/Administrator/Downloads/flask_react_app-main (1)/flask_react_app-main/client/src/images/back1.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 40px; /* Ensure there is padding for scrolling content */
+  }
+  
+  .home-page h1, 
+  .home-page h2, 
+  .home-page p {
+    color: #fff; /* Ensure text is readable against the background */
+  }
+  
+  
+  .home-page .card {
+    background: rgba(255, 255, 255, 0.1); /* Light transparent background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    border: none; /* Remove default card border */
+    transition: background 0.3s; /* Smooth transition on hover */
+  }
+  
+  .home-page .card:hover {
+    background: rgba(255, 255, 255, 0.3); /* Darken background on hover */
+  }
+  
+  .home-page .card-title, 
+  .home-page .card-text {
+    color: #fff; /* Light text color for contrast */
+  }
+  
